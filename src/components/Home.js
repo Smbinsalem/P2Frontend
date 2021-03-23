@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <Title>Kampus</Title>
-      <Description>Where students plan their journy</Description>
+      <Description>Where students plan their journeys</Description>
       <Image />
     </>
   );

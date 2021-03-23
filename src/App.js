@@ -14,16 +14,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <NavigationBar>
-      <Router>
-        <Switch>
-          <Route path="/" exact component={<Home />} />
-          <Route path="/university" component={University} />
-          <Route path="/student" component={Student} />
-          <Route path="/course" component={Course} />
-        </Switch>
-      </Router>
-    </NavigationBar>
+    <>
+      <NavigationBar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/university" component={University} />
+        <Route path="/student" component={Student} />
+        <Route path="/course" component={Course} />
+      </Switch>
+    </>
   );
 }
 
